@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -rdynamic "CMakeFiles/resize-example4a.dir/resize-example4a.cxx.o" "CMakeFiles/resize-example4a.dir/resize-arrows.cxx.o" -o ../bin/test/resize-example4a  ../lib/libfltk.a -Wl,-Bstatic -ldl -Wl,-Bdynamic -lX11 -lXext -lXfixes -lXrender 

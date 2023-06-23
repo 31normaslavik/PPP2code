@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -rdynamic CMakeFiles/menubar.dir/menubar.cxx.o -o ../bin/test/menubar  ../lib/libfltk.a -Wl,-Bstatic -ldl -Wl,-Bdynamic -lX11 -lXext -lXfixes -lXrender 

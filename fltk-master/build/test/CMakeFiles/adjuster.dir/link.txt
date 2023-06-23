@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -rdynamic CMakeFiles/adjuster.dir/adjuster.cxx.o -o ../bin/test/adjuster  ../lib/libfltk.a -Wl,-Bstatic -ldl -Wl,-Bdynamic -lX11 -lXext -lXfixes -lXrender 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -rdynamic CMakeFiles/coordinates.dir/coordinates.cxx.o -o ../bin/test/coordinates  ../lib/libfltk.a -Wl,-Bstatic -ldl -Wl,-Bdynamic -lX11 -lXext -lXfixes -lXrender 

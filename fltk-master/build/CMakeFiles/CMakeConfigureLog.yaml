@@ -1,0 +1,1675 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:44 (project)"
+    message: |
+      The system is: Linux - 6.1.0-kali7-amd64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:44 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/3.26.4/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:44 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/3.26.4/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:44 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-IKSjU8"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-IKSjU8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-IKSjU8
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d1d47/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d1d47.dir/build.make CMakeFiles/cmTC_d1d47.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-IKSjU8'
+        Building C object CMakeFiles/cmTC_d1d47.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_d1d47.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 12.2.0 (Debian 12.2.0-14) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d1d47.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d1d47.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d1d47.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccu2E5sn.s
+        GNU C17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/12/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: cc72d2b9b5048fedc2be9051c917b40b
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d1d47.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d1d47.dir/'
+         as -v --64 -o CMakeFiles/cmTC_d1d47.dir/CMakeCCompilerABI.c.o /tmp/ccu2E5sn.s
+        GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d1d47.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d1d47.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_d1d47
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1d47.dir/link.txt --verbose=1
+        /usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_d1d47.dir/CMakeCCompilerABI.c.o -o cmTC_d1d47 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 12.2.0 (Debian 12.2.0-14) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d1d47' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d1d47.'
+         /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJbz9h8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d1d47 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_d1d47.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d1d47' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d1d47.'
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-IKSjU8'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:44 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/12/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/12/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:44 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-IKSjU8]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d1d47/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d1d47.dir/build.make CMakeFiles/cmTC_d1d47.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-IKSjU8']
+        ignore line: [Building C object CMakeFiles/cmTC_d1d47.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_d1d47.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d1d47.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d1d47.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_d1d47.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccu2E5sn.s]
+        ignore line: [GNU C17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: cc72d2b9b5048fedc2be9051c917b40b]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d1d47.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d1d47.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_d1d47.dir/CMakeCCompilerABI.c.o /tmp/ccu2E5sn.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d1d47.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d1d47.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_d1d47]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1d47.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_d1d47.dir/CMakeCCompilerABI.c.o -o cmTC_d1d47 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d1d47' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d1d47.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJbz9h8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d1d47 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_d1d47.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/12/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccJbz9h8.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_d1d47] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/12] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..]
+          arg [CMakeFiles/cmTC_d1d47.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12] ==> [/usr/lib/gcc/x86_64-linux-gnu/12]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/12;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:44 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-dHTVMi"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-dHTVMi"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-dHTVMi
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_42167/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_42167.dir/build.make CMakeFiles/cmTC_42167.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-dHTVMi'
+        Building CXX object CMakeFiles/cmTC_42167.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_42167.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 12.2.0 (Debian 12.2.0-14) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_42167.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_42167.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/12/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_42167.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccC7d177.s
+        GNU C++17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/12"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/12
+         /usr/include/x86_64-linux-gnu/c++/12
+         /usr/include/c++/12/backward
+         /usr/lib/gcc/x86_64-linux-gnu/12/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 62b090dbbefa50644117a3c13d47369a
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_42167.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_42167.dir/'
+         as -v --64 -o CMakeFiles/cmTC_42167.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccC7d177.s
+        GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_42167.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_42167.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_42167
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42167.dir/link.txt --verbose=1
+        /usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_42167.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_42167 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 12.2.0 (Debian 12.2.0-14) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_42167' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_42167.'
+         /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPOq6EM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_42167 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_42167.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_42167' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_42167.'
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-dHTVMi'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:44 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/12]
+          add: [/usr/include/x86_64-linux-gnu/c++/12]
+          add: [/usr/include/c++/12/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/12] ==> [/usr/include/c++/12]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/12] ==> [/usr/include/x86_64-linux-gnu/c++/12]
+        collapse include dir [/usr/include/c++/12/backward] ==> [/usr/include/c++/12/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/12/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/12;/usr/include/x86_64-linux-gnu/c++/12;/usr/include/c++/12/backward;/usr/lib/gcc/x86_64-linux-gnu/12/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:44 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-dHTVMi]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_42167/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_42167.dir/build.make CMakeFiles/cmTC_42167.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-dHTVMi']
+        ignore line: [Building CXX object CMakeFiles/cmTC_42167.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_42167.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_42167.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_42167.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_42167.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccC7d177.s]
+        ignore line: [GNU C++17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/12"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/12]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/12]
+        ignore line: [ /usr/include/c++/12/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 62b090dbbefa50644117a3c13d47369a]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_42167.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_42167.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_42167.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccC7d177.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_42167.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_42167.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_42167]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42167.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v -rdynamic CMakeFiles/cmTC_42167.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_42167 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_42167' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_42167.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPOq6EM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_42167 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_42167.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/12/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccPOq6EM.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_42167] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/12] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..]
+          arg [CMakeFiles/cmTC_42167.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12] ==> [/usr/lib/gcc/x86_64-linux-gnu/12]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/12;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "CMake/setup.cmake:130 (CHECK_TYPE_SIZE)"
+      - "CMakeLists.txt:66 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-y63siw"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-y63siw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-y63siw
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a9f6f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a9f6f.dir/build.make CMakeFiles/cmTC_a9f6f.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-y63siw'
+        Building C object CMakeFiles/cmTC_a9f6f.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_a9f6f.dir/CheckIncludeFile.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-y63siw/CheckIncludeFile.c
+        Linking C executable cmTC_a9f6f
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9f6f.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_a9f6f.dir/CheckIncludeFile.c.o -o cmTC_a9f6f 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-y63siw'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckTypeSize.cmake:253 (check_include_file)"
+      - "CMake/setup.cmake:130 (CHECK_TYPE_SIZE)"
+      - "CMakeLists.txt:66 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-Cd8HwJ"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-Cd8HwJ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-Cd8HwJ
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8b761/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8b761.dir/build.make CMakeFiles/cmTC_8b761.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-Cd8HwJ'
+        Building C object CMakeFiles/cmTC_8b761.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_8b761.dir/CheckIncludeFile.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-Cd8HwJ/CheckIncludeFile.c
+        Linking C executable cmTC_8b761
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b761.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_8b761.dir/CheckIncludeFile.c.o -o cmTC_8b761 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-Cd8HwJ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckTypeSize.cmake:254 (check_include_file)"
+      - "CMake/setup.cmake:130 (CHECK_TYPE_SIZE)"
+      - "CMakeLists.txt:66 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-jMiaf1"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-jMiaf1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-jMiaf1
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_60f54/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_60f54.dir/build.make CMakeFiles/cmTC_60f54.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-jMiaf1'
+        Building C object CMakeFiles/cmTC_60f54.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_60f54.dir/CheckIncludeFile.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-jMiaf1/CheckIncludeFile.c
+        Linking C executable cmTC_60f54
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60f54.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_60f54.dir/CheckIncludeFile.c.o -o cmTC_60f54 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-jMiaf1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMake/setup.cmake:130 (CHECK_TYPE_SIZE)"
+      - "CMakeLists.txt:66 (include)"
+    checks:
+      - "Check size of short"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-E3Dgzx"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-E3Dgzx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_SHORT"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-E3Dgzx
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e42d8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e42d8.dir/build.make CMakeFiles/cmTC_e42d8.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-E3Dgzx'
+        Building C object CMakeFiles/cmTC_e42d8.dir/SIZEOF_SHORT.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_e42d8.dir/SIZEOF_SHORT.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-E3Dgzx/SIZEOF_SHORT.c
+        Linking C executable cmTC_e42d8
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e42d8.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_e42d8.dir/SIZEOF_SHORT.c.o -o cmTC_e42d8 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-E3Dgzx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMake/setup.cmake:131 (CHECK_TYPE_SIZE)"
+      - "CMakeLists.txt:66 (include)"
+    checks:
+      - "Check size of int"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-X03ZO9"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-X03ZO9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_INT"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-X03ZO9
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6b900/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6b900.dir/build.make CMakeFiles/cmTC_6b900.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-X03ZO9'
+        Building C object CMakeFiles/cmTC_6b900.dir/SIZEOF_INT.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_6b900.dir/SIZEOF_INT.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-X03ZO9/SIZEOF_INT.c
+        Linking C executable cmTC_6b900
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b900.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_6b900.dir/SIZEOF_INT.c.o -o cmTC_6b900 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-X03ZO9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMake/setup.cmake:132 (CHECK_TYPE_SIZE)"
+      - "CMakeLists.txt:66 (include)"
+    checks:
+      - "Check size of long"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-2UiDAI"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-2UiDAI"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_LONG"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-2UiDAI
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_425bd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_425bd.dir/build.make CMakeFiles/cmTC_425bd.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-2UiDAI'
+        Building C object CMakeFiles/cmTC_425bd.dir/SIZEOF_LONG.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_425bd.dir/SIZEOF_LONG.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-2UiDAI/SIZEOF_LONG.c
+        Linking C executable cmTC_425bd
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_425bd.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_425bd.dir/SIZEOF_LONG.c.o -o cmTC_425bd 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-2UiDAI'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMake/setup.cmake:133 (CHECK_TYPE_SIZE)"
+      - "CMakeLists.txt:66 (include)"
+    checks:
+      - "Check size of long long"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-gfrNJP"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-gfrNJP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_HAVE_LONG_LONG"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-gfrNJP
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_17fe7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_17fe7.dir/build.make CMakeFiles/cmTC_17fe7.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-gfrNJP'
+        Building C object CMakeFiles/cmTC_17fe7.dir/HAVE_LONG_LONG.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_17fe7.dir/HAVE_LONG_LONG.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-gfrNJP/HAVE_LONG_LONG.c
+        Linking C executable cmTC_17fe7
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17fe7.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_17fe7.dir/HAVE_LONG_LONG.c.o -o cmTC_17fe7 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-gfrNJP'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMake/resources.cmake:32 (check_include_files)"
+      - "CMake/resources.cmake:56 (fl_find_header)"
+      - "CMakeLists.txt:71 (include)"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-7n8MMT"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-7n8MMT"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_ALSA_ASOUNDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-7n8MMT
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_acc47/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_acc47.dir/build.make CMakeFiles/cmTC_acc47.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-7n8MMT'
+        Building C object CMakeFiles/cmTC_acc47.dir/HAVE_ALSA_ASOUNDLIB_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_acc47.dir/HAVE_ALSA_ASOUNDLIB_H.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-7n8MMT/HAVE_ALSA_ASOUNDLIB_H.c
+        /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-7n8MMT/HAVE_ALSA_ASOUNDLIB_H.c:2:10: fatal error: alsa/asoundlib.h: No such file or directory
+            2 | #include <alsa/asoundlib.h>
+              |          ^~~~~~~~~~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_acc47.dir/build.make:78: CMakeFiles/cmTC_acc47.dir/HAVE_ALSA_ASOUNDLIB_H.c.o] Error 1
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-7n8MMT'
+        gmake: *** [Makefile:127: cmTC_acc47/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMake/resources.cmake:32 (check_include_files)"
+      - "CMake/resources.cmake:57 (fl_find_header)"
+      - "CMakeLists.txt:71 (include)"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-S7YcWA"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-S7YcWA"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_DLFCN_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-S7YcWA
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d2166/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d2166.dir/build.make CMakeFiles/cmTC_d2166.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-S7YcWA'
+        Building C object CMakeFiles/cmTC_d2166.dir/HAVE_DLFCN_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_d2166.dir/HAVE_DLFCN_H.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-S7YcWA/HAVE_DLFCN_H.c
+        Linking C executable cmTC_d2166
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2166.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_d2166.dir/HAVE_DLFCN_H.c.o -o cmTC_d2166 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-S7YcWA'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMake/resources.cmake:32 (check_include_files)"
+      - "CMake/resources.cmake:58 (fl_find_header)"
+      - "CMakeLists.txt:71 (include)"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-svds3e"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-svds3e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_GL_GLU_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-svds3e
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_09dc7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_09dc7.dir/build.make CMakeFiles/cmTC_09dc7.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-svds3e'
+        Building C object CMakeFiles/cmTC_09dc7.dir/HAVE_GL_GLU_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_09dc7.dir/HAVE_GL_GLU_H.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-svds3e/HAVE_GL_GLU_H.c
+        Linking C executable cmTC_09dc7
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09dc7.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_09dc7.dir/HAVE_GL_GLU_H.c.o -o cmTC_09dc7 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-svds3e'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMake/resources.cmake:32 (check_include_files)"
+      - "CMake/resources.cmake:59 (fl_find_header)"
+      - "CMakeLists.txt:71 (include)"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-IlLQAw"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-IlLQAw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_LOCALE_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-IlLQAw
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7d0fe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7d0fe.dir/build.make CMakeFiles/cmTC_7d0fe.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-IlLQAw'
+        Building C object CMakeFiles/cmTC_7d0fe.dir/HAVE_LOCALE_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_7d0fe.dir/HAVE_LOCALE_H.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-IlLQAw/HAVE_LOCALE_H.c
+        Linking C executable cmTC_7d0fe
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d0fe.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_7d0fe.dir/HAVE_LOCALE_H.c.o -o cmTC_7d0fe 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-IlLQAw'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMake/resources.cmake:32 (check_include_files)"
+      - "CMake/resources.cmake:60 (fl_find_header)"
+      - "CMakeLists.txt:71 (include)"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-fYePvT"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-fYePvT"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_OPENGL_GLU_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-fYePvT
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_499d9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_499d9.dir/build.make CMakeFiles/cmTC_499d9.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-fYePvT'
+        Building C object CMakeFiles/cmTC_499d9.dir/HAVE_OPENGL_GLU_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_499d9.dir/HAVE_OPENGL_GLU_H.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-fYePvT/HAVE_OPENGL_GLU_H.c
+        /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-fYePvT/HAVE_OPENGL_GLU_H.c:2:10: fatal error: OpenGL/glu.h: No such file or directory
+            2 | #include <OpenGL/glu.h>
+              |          ^~~~~~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_499d9.dir/build.make:78: CMakeFiles/cmTC_499d9.dir/HAVE_OPENGL_GLU_H.c.o] Error 1
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-fYePvT'
+        gmake: *** [Makefile:127: cmTC_499d9/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMake/resources.cmake:32 (check_include_files)"
+      - "CMake/resources.cmake:61 (fl_find_header)"
+      - "CMakeLists.txt:71 (include)"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-YBzRxU"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-YBzRxU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_STDIO_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-YBzRxU
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0f0a0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0f0a0.dir/build.make CMakeFiles/cmTC_0f0a0.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-YBzRxU'
+        Building C object CMakeFiles/cmTC_0f0a0.dir/HAVE_STDIO_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_0f0a0.dir/HAVE_STDIO_H.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-YBzRxU/HAVE_STDIO_H.c
+        Linking C executable cmTC_0f0a0
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f0a0.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_0f0a0.dir/HAVE_STDIO_H.c.o -o cmTC_0f0a0 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-YBzRxU'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMake/resources.cmake:32 (check_include_files)"
+      - "CMake/resources.cmake:62 (fl_find_header)"
+      - "CMakeLists.txt:71 (include)"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-E84CKC"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-E84CKC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_STRINGS_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-E84CKC
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_90ce6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_90ce6.dir/build.make CMakeFiles/cmTC_90ce6.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-E84CKC'
+        Building C object CMakeFiles/cmTC_90ce6.dir/HAVE_STRINGS_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_90ce6.dir/HAVE_STRINGS_H.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-E84CKC/HAVE_STRINGS_H.c
+        Linking C executable cmTC_90ce6
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90ce6.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_90ce6.dir/HAVE_STRINGS_H.c.o -o cmTC_90ce6 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-E84CKC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMake/resources.cmake:32 (check_include_files)"
+      - "CMake/resources.cmake:63 (fl_find_header)"
+      - "CMakeLists.txt:71 (include)"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-KgEfoE"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-KgEfoE"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_SYS_SELECT_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-KgEfoE
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dd962/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dd962.dir/build.make CMakeFiles/cmTC_dd962.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-KgEfoE'
+        Building C object CMakeFiles/cmTC_dd962.dir/HAVE_SYS_SELECT_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_dd962.dir/HAVE_SYS_SELECT_H.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-KgEfoE/HAVE_SYS_SELECT_H.c
+        Linking C executable cmTC_dd962
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd962.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_dd962.dir/HAVE_SYS_SELECT_H.c.o -o cmTC_dd962 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-KgEfoE'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMake/resources.cmake:32 (check_include_files)"
+      - "CMake/resources.cmake:64 (fl_find_header)"
+      - "CMakeLists.txt:71 (include)"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-rpzgQX"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-rpzgQX"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_SYS_STDTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-rpzgQX
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f7e79/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f7e79.dir/build.make CMakeFiles/cmTC_f7e79.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-rpzgQX'
+        Building C object CMakeFiles/cmTC_f7e79.dir/HAVE_SYS_STDTYPES_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_f7e79.dir/HAVE_SYS_STDTYPES_H.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-rpzgQX/HAVE_SYS_STDTYPES_H.c
+        /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-rpzgQX/HAVE_SYS_STDTYPES_H.c:2:10: fatal error: sys/stdtypes.h: No such file or directory
+            2 | #include <sys/stdtypes.h>
+              |          ^~~~~~~~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_f7e79.dir/build.make:78: CMakeFiles/cmTC_f7e79.dir/HAVE_SYS_STDTYPES_H.c.o] Error 1
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-rpzgQX'
+        gmake: *** [Makefile:127: cmTC_f7e79/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMake/resources.cmake:32 (check_include_files)"
+      - "CMake/resources.cmake:66 (fl_find_header)"
+      - "CMakeLists.txt:71 (include)"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-cCF34v"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-cCF34v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_X11_XREGION_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-cCF34v
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4c763/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4c763.dir/build.make CMakeFiles/cmTC_4c763.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-cCF34v'
+        Building C object CMakeFiles/cmTC_4c763.dir/HAVE_X11_XREGION_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_4c763.dir/HAVE_X11_XREGION_H.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-cCF34v/HAVE_X11_XREGION_H.c
+        Linking C executable cmTC_4c763
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c763.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_4c763.dir/HAVE_X11_XREGION_H.c.o -o cmTC_4c763 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-cCF34v'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMake/resources.cmake:32 (check_include_files)"
+      - "CMake/resources.cmake:72 (fl_find_header)"
+      - "CMakeLists.txt:71 (include)"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-DGRR8x"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-DGRR8x"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_PTHREAD_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-DGRR8x
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bc2dc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bc2dc.dir/build.make CMakeFiles/cmTC_bc2dc.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-DGRR8x'
+        Building C object CMakeFiles/cmTC_bc2dc.dir/HAVE_PTHREAD_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_bc2dc.dir/HAVE_PTHREAD_H.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-DGRR8x/HAVE_PTHREAD_H.c
+        Linking C executable cmTC_bc2dc
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc2dc.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_bc2dc.dir/HAVE_PTHREAD_H.c.o -o cmTC_bc2dc 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-DGRR8x'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/resources.cmake:78 (try_compile)"
+      - "CMakeLists.txt:71 (include)"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeTmp"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_PTHREAD_MUTEX_RECURSIVE"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ec734/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ec734.dir/build.make CMakeFiles/cmTC_ec734.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_ec734.dir/pthread_mutex_recursive.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_ec734.dir/pthread_mutex_recursive.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/CMake/pthread_mutex_recursive.c
+        Linking C executable cmTC_ec734
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec734.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_ec734.dir/pthread_mutex_recursive.c.o -o cmTC_ec734 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMake/resources.cmake:32 (check_include_files)"
+      - "CMake/resources.cmake:119 (fl_find_header)"
+      - "CMakeLists.txt:71 (include)"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-qkKocV"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-qkKocV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_DIRENT_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-qkKocV
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d4536/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d4536.dir/build.make CMakeFiles/cmTC_d4536.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-qkKocV'
+        Building C object CMakeFiles/cmTC_d4536.dir/HAVE_DIRENT_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_d4536.dir/HAVE_DIRENT_H.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-qkKocV/HAVE_DIRENT_H.c
+        Linking C executable cmTC_d4536
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4536.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_d4536.dir/HAVE_DIRENT_H.c.o -o cmTC_d4536 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-qkKocV'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMake/resources.cmake:191 (CHECK_FUNCTION_EXISTS)"
+      - "CMakeLists.txt:71 (include)"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-kxng70"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-kxng70"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_DLSYM"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-kxng70
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8f27e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8f27e.dir/build.make CMakeFiles/cmTC_8f27e.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-kxng70'
+        Building C object CMakeFiles/cmTC_8f27e.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlsym -o CMakeFiles/cmTC_8f27e.dir/CheckFunctionExists.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-kxng70/CheckFunctionExists.c
+        Linking C executable cmTC_8f27e
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f27e.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dlsym -rdynamic CMakeFiles/cmTC_8f27e.dir/CheckFunctionExists.c.o -o cmTC_8f27e  -ldl 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-kxng70'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMake/resources.cmake:194 (CHECK_FUNCTION_EXISTS)"
+      - "CMakeLists.txt:71 (include)"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-SRUzOC"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-SRUzOC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_LOCALECONV"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-SRUzOC
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5f6bd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5f6bd.dir/build.make CMakeFiles/cmTC_5f6bd.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-SRUzOC'
+        Building C object CMakeFiles/cmTC_5f6bd.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=localeconv -o CMakeFiles/cmTC_5f6bd.dir/CheckFunctionExists.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-SRUzOC/CheckFunctionExists.c
+        Linking C executable cmTC_5f6bd
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f6bd.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=localeconv -rdynamic CMakeFiles/cmTC_5f6bd.dir/CheckFunctionExists.c.o -o cmTC_5f6bd 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-SRUzOC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMake/resources.cmake:203 (CHECK_FUNCTION_EXISTS)"
+      - "CMakeLists.txt:71 (include)"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-eXjQZS"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-eXjQZS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_SCANDIR"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-eXjQZS
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7ead4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7ead4.dir/build.make CMakeFiles/cmTC_7ead4.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-eXjQZS'
+        Building C object CMakeFiles/cmTC_7ead4.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=scandir -o CMakeFiles/cmTC_7ead4.dir/CheckFunctionExists.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-eXjQZS/CheckFunctionExists.c
+        Linking C executable cmTC_7ead4
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ead4.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=scandir -rdynamic CMakeFiles/cmTC_7ead4.dir/CheckFunctionExists.c.o -o cmTC_7ead4 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-eXjQZS'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMake/resources.cmake:204 (CHECK_FUNCTION_EXISTS)"
+      - "CMakeLists.txt:71 (include)"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-kYCL1C"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-kYCL1C"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_SNPRINTF"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-kYCL1C
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_787af/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_787af.dir/build.make CMakeFiles/cmTC_787af.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-kYCL1C'
+        Building C object CMakeFiles/cmTC_787af.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snprintf -o CMakeFiles/cmTC_787af.dir/CheckFunctionExists.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-kYCL1C/CheckFunctionExists.c
+        <command-line>: warning: conflicting types for built-in function ‘snprintf’; expected ‘int(char *, long unsigned int,  const char *, ...)’ [-Wbuiltin-declaration-mismatch]
+        /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-kYCL1C/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^~~~~~~~~~~~~~~~~~~~~
+        /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-kYCL1C/CheckFunctionExists.c:1:1: note: ‘snprintf’ is declared in header ‘<stdio.h>’
+          +++ |+#include <stdio.h>
+            1 | #ifdef CHECK_FUNCTION_EXISTS
+        Linking C executable cmTC_787af
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_787af.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=snprintf -rdynamic CMakeFiles/cmTC_787af.dir/CheckFunctionExists.c.o -o cmTC_787af 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-kYCL1C'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMake/resources.cmake:211 (CHECK_FUNCTION_EXISTS)"
+      - "CMakeLists.txt:71 (include)"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-upDY42"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-upDY42"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_STRCASECMP"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-upDY42
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7bb84/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7bb84.dir/build.make CMakeFiles/cmTC_7bb84.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-upDY42'
+        Building C object CMakeFiles/cmTC_7bb84.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strcasecmp -o CMakeFiles/cmTC_7bb84.dir/CheckFunctionExists.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-upDY42/CheckFunctionExists.c
+        <command-line>: warning: conflicting types for built-in function ‘strcasecmp’; expected ‘int(const char *, const char *)’ [-Wbuiltin-declaration-mismatch]
+        <command-line>: note: in definition of macro ‘CHECK_FUNCTION_EXISTS’
+        Linking C executable cmTC_7bb84
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bb84.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strcasecmp -rdynamic CMakeFiles/cmTC_7bb84.dir/CheckFunctionExists.c.o -o cmTC_7bb84 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-upDY42'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMake/resources.cmake:213 (CHECK_FUNCTION_EXISTS)"
+      - "CMakeLists.txt:71 (include)"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-QCYMtl"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-QCYMtl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_STRLCAT"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-QCYMtl
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1c10c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1c10c.dir/build.make CMakeFiles/cmTC_1c10c.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-QCYMtl'
+        Building C object CMakeFiles/cmTC_1c10c.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcat -o CMakeFiles/cmTC_1c10c.dir/CheckFunctionExists.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-QCYMtl/CheckFunctionExists.c
+        Linking C executable cmTC_1c10c
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c10c.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strlcat -rdynamic CMakeFiles/cmTC_1c10c.dir/CheckFunctionExists.c.o -o cmTC_1c10c 
+        /usr/bin/ld: CMakeFiles/cmTC_1c10c.dir/CheckFunctionExists.c.o: in function `main':
+        CheckFunctionExists.c:(.text+0x10): undefined reference to `strlcat'
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_1c10c.dir/build.make:99: cmTC_1c10c] Error 1
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-QCYMtl'
+        gmake: *** [Makefile:127: cmTC_1c10c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMake/resources.cmake:214 (CHECK_FUNCTION_EXISTS)"
+      - "CMakeLists.txt:71 (include)"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-tyJ3mO"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-tyJ3mO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_STRLCPY"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-tyJ3mO
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_81c06/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_81c06.dir/build.make CMakeFiles/cmTC_81c06.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-tyJ3mO'
+        Building C object CMakeFiles/cmTC_81c06.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlcpy -o CMakeFiles/cmTC_81c06.dir/CheckFunctionExists.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-tyJ3mO/CheckFunctionExists.c
+        Linking C executable cmTC_81c06
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81c06.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strlcpy -rdynamic CMakeFiles/cmTC_81c06.dir/CheckFunctionExists.c.o -o cmTC_81c06 
+        /usr/bin/ld: CMakeFiles/cmTC_81c06.dir/CheckFunctionExists.c.o: in function `main':
+        CheckFunctionExists.c:(.text+0x10): undefined reference to `strlcpy'
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_81c06.dir/build.make:99: cmTC_81c06] Error 1
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-tyJ3mO'
+        gmake: *** [Makefile:127: cmTC_81c06/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMake/resources.cmake:215 (CHECK_FUNCTION_EXISTS)"
+      - "CMakeLists.txt:71 (include)"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-09sZK6"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-09sZK6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_VSNPRINTF"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-09sZK6
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_15c47/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_15c47.dir/build.make CMakeFiles/cmTC_15c47.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-09sZK6'
+        Building C object CMakeFiles/cmTC_15c47.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=vsnprintf -o CMakeFiles/cmTC_15c47.dir/CheckFunctionExists.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-09sZK6/CheckFunctionExists.c
+        <command-line>: warning: conflicting types for built-in function ‘vsnprintf’; expected ‘int(char *, long unsigned int,  const char *, __va_list_tag *)’ [-Wbuiltin-declaration-mismatch]
+        /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-09sZK6/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^~~~~~~~~~~~~~~~~~~~~
+        /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-09sZK6/CheckFunctionExists.c:1:1: note: ‘vsnprintf’ is declared in header ‘<stdio.h>’
+          +++ |+#include <stdio.h>
+            1 | #ifdef CHECK_FUNCTION_EXISTS
+        Linking C executable cmTC_15c47
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15c47.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=vsnprintf -rdynamic CMakeFiles/cmTC_15c47.dir/CheckFunctionExists.c.o -o cmTC_15c47 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-09sZK6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "CMake/resources.cmake:220 (try_compile)"
+      - "CMakeLists.txt:71 (include)"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeTmp"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "V"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7abdd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7abdd.dir/build.make CMakeFiles/cmTC_7abdd.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_7abdd.dir/posixScandir.cxx.o
+        /usr/bin/c++    -o CMakeFiles/cmTC_7abdd.dir/posixScandir.cxx.o -c /home/pancake/Desktop/PPP2code/fltk-master/CMake/posixScandir.cxx
+        Linking CXX executable cmTC_7abdd
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7abdd.dir/link.txt --verbose=1
+        /usr/bin/c++ -rdynamic CMakeFiles/cmTC_7abdd.dir/posixScandir.cxx.o -o cmTC_7abdd 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/FindX11.cmake:498 (check_library_exists)"
+      - "CMake/options.cmake:317 (include)"
+      - "CMakeLists.txt:76 (include)"
+    checks:
+      - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-3b7r9o"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-3b7r9o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-3b7r9o
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_46fd9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_46fd9.dir/build.make CMakeFiles/cmTC_46fd9.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-3b7r9o'
+        Building C object CMakeFiles/cmTC_46fd9.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_46fd9.dir/CheckFunctionExists.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-3b7r9o/CheckFunctionExists.c
+        Linking C executable cmTC_46fd9
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46fd9.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay -rdynamic CMakeFiles/cmTC_46fd9.dir/CheckFunctionExists.c.o -o cmTC_46fd9  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-3b7r9o'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/FindX11.cmake:513 (check_function_exists)"
+      - "CMake/options.cmake:317 (include)"
+      - "CMakeLists.txt:76 (include)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-MBH9bZ"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-MBH9bZ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-MBH9bZ
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_76f1b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_76f1b.dir/build.make CMakeFiles/cmTC_76f1b.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-MBH9bZ'
+        Building C object CMakeFiles/cmTC_76f1b.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_76f1b.dir/CheckFunctionExists.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-MBH9bZ/CheckFunctionExists.c
+        Linking C executable cmTC_76f1b
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76f1b.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname -rdynamic CMakeFiles/cmTC_76f1b.dir/CheckFunctionExists.c.o -o cmTC_76f1b 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-MBH9bZ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/FindX11.cmake:527 (check_function_exists)"
+      - "CMake/options.cmake:317 (include)"
+      - "CMakeLists.txt:76 (include)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-ufBYPB"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-ufBYPB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-ufBYPB
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_96d54/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_96d54.dir/build.make CMakeFiles/cmTC_96d54.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-ufBYPB'
+        Building C object CMakeFiles/cmTC_96d54.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_96d54.dir/CheckFunctionExists.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-ufBYPB/CheckFunctionExists.c
+        Linking C executable cmTC_96d54
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96d54.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect -rdynamic CMakeFiles/cmTC_96d54.dir/CheckFunctionExists.c.o -o cmTC_96d54 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-ufBYPB'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/FindX11.cmake:536 (check_function_exists)"
+      - "CMake/options.cmake:317 (include)"
+      - "CMakeLists.txt:76 (include)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-e1z1OC"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-e1z1OC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-e1z1OC
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a0135/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a0135.dir/build.make CMakeFiles/cmTC_a0135.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-e1z1OC'
+        Building C object CMakeFiles/cmTC_a0135.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_a0135.dir/CheckFunctionExists.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-e1z1OC/CheckFunctionExists.c
+        Linking C executable cmTC_a0135
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0135.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove -rdynamic CMakeFiles/cmTC_a0135.dir/CheckFunctionExists.c.o -o cmTC_a0135 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-e1z1OC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/FindX11.cmake:545 (check_function_exists)"
+      - "CMake/options.cmake:317 (include)"
+      - "CMakeLists.txt:76 (include)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-9nfGHs"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-9nfGHs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-9nfGHs
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0c925/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0c925.dir/build.make CMakeFiles/cmTC_0c925.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-9nfGHs'
+        Building C object CMakeFiles/cmTC_0c925.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_0c925.dir/CheckFunctionExists.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-9nfGHs/CheckFunctionExists.c
+        Linking C executable cmTC_0c925
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c925.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat -rdynamic CMakeFiles/cmTC_0c925.dir/CheckFunctionExists.c.o -o cmTC_0c925 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-9nfGHs'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMake/options.cmake:563 (CHECK_FUNCTION_EXISTS)"
+      - "CMakeLists.txt:76 (include)"
+    checks:
+      - "Looking for glXGetProcAddressARB"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-aQo7L5"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-aQo7L5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "HAVE_GLXGETPROCADDRESSARB"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-aQo7L5
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_098c7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_098c7.dir/build.make CMakeFiles/cmTC_098c7.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-aQo7L5'
+        Building C object CMakeFiles/cmTC_098c7.dir/CheckFunctionExists.c.o
+        /usr/bin/cc  -I/usr/include/GL -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB -o CMakeFiles/cmTC_098c7.dir/CheckFunctionExists.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-aQo7L5/CheckFunctionExists.c
+        Linking C executable cmTC_098c7
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_098c7.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB -rdynamic CMakeFiles/cmTC_098c7.dir/CheckFunctionExists.c.o -o cmTC_098c7  /usr/lib/x86_64-linux-gnu/libGL.so /usr/lib/x86_64-linux-gnu/libGLU.so 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-aQo7L5'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/local/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMake/options.cmake:605 (include)"
+      - "CMakeLists.txt:76 (include)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-304hla"
+      binary: "/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-304hla"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pancake/Desktop/PPP2code/fltk-master/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-304hla
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1c7b6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1c7b6.dir/build.make CMakeFiles/cmTC_1c7b6.dir/build
+        gmake[1]: Entering directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-304hla'
+        Building C object CMakeFiles/cmTC_1c7b6.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD -I/usr/include/GL  -o CMakeFiles/cmTC_1c7b6.dir/src.c.o -c /home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-304hla/src.c
+        Linking C executable cmTC_1c7b6
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c7b6.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_1c7b6.dir/src.c.o -o cmTC_1c7b6 
+        gmake[1]: Leaving directory '/home/pancake/Desktop/PPP2code/fltk-master/build/CMakeFiles/CMakeScratch/TryCompile-304hla'
+        
+      exitCode: 0
+...

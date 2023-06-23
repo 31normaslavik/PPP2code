@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -rdynamic "CMakeFiles/fltk-options.dir/fltk-options.cxx.o" -o ../bin/fltk-options  ../lib/libfltk.a -Wl,-Bstatic -ldl -Wl,-Bdynamic -lX11 -lXext -lXfixes -lXrender 

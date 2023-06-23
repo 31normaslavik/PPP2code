@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -rdynamic CMakeFiles/help_dialog.dir/help_dialog.cxx.o -o ../bin/test/help_dialog  ../lib/libfltk_images.a ../lib/libfltk.a -Wl,-Bstatic -ldl -Wl,-Bdynamic -lX11 -lXext -lXfixes -lXrender ../lib/libfltk_jpeg.a ../lib/libfltk_png.a ../lib/libfltk_z.a 
